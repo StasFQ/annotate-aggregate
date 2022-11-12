@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     {%  for auth in authors %}
+        <a href="{% url 'hm12:author' auth.id %}">{{ auth.name }}</a>
+         <p></p>
+         {% for a in auth.authors.id %}
+             {{ a.name }},
+         {% endfor %}
+    {% endfor %}
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    {% for b in book %}
+        <a href="{% url 'hm12:book' b.id %}">{{ b.name }}</a> {{ b.pages }}, {{ b.price }}, {{ b.rating }}, {{ b.pub_date }}
+        {% for a in b.authors.all %}
+             {{ a.name }}
+        {% endfor %}
+        <p></p>
+     {% endfor %}
+</form>
+</body>
+</html>

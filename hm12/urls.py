@@ -1,9 +1,9 @@
 from django.urls import path
 
-from hm12.views import *
+from hm12.views import main_page, get_books, get_author, book, author
 
 app_name = 'hm12'
-urlpatterns =[
+urlpatterns = [
     path('', main_page, name='main_page'),
     path('books/', get_books, name='get_books'),
     path('authors/', get_author, name='get_author'),

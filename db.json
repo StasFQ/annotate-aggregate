@@ -1,0 +1,2124 @@
+[
+{
+  "model": "hm12.author",
+  "pk": 1,
+  "fields": {
+    "name": "Тарас Шевченко",
+    "age": 35
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 2,
+  "fields": {
+    "name": "Леся Украинка",
+    "age": 28
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 3,
+  "fields": {
+    "name": "Олена Пчелка",
+    "age": 55
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 4,
+  "fields": {
+    "name": "Александр Пушкин",
+    "age": 36
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 5,
+  "fields": {
+    "name": "Иван Франко",
+    "age": 43
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 6,
+  "fields": {
+    "name": "Всеволод Нестайко",
+    "age": 76
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 7,
+  "fields": {
+    "name": "Виктор Гюго",
+    "age": 53
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 8,
+  "fields": {
+    "name": "Лев Толстой",
+    "age": 43
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 9,
+  "fields": {
+    "name": "Николай Гоголь",
+    "age": 34
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 10,
+  "fields": {
+    "name": "Джордж Оруэлл",
+    "age": 75
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 11,
+  "fields": {
+    "name": "Михаил Булгаков",
+    "age": 33
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 12,
+  "fields": {
+    "name": "Грегори Дэвид Робертс",
+    "age": 75
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 13,
+  "fields": {
+    "name": "Эрих Мария Ремарк",
+    "age": 54
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 14,
+  "fields": {
+    "name": "Дэниел Киз",
+    "age": 47
+  }
+},
+{
+  "model": "hm12.author",
+  "pk": 15,
+  "fields": {
+    "name": "Оскар Уайльд",
+    "age": 38
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 1,
+  "fields": {
+    "name": "Harry Potter",
+    "pages": 436,
+    "price": "416.00",
+    "rating": 8.0,
+    "publisher": 22,
+    "pubdate": "2022-11-11",
+    "authors": [
+      7
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 2,
+  "fields": {
+    "name": "Кобзар",
+    "pages": 876,
+    "price": "350.00",
+    "rating": 10.0,
+    "publisher": 21,
+    "pubdate": "2022-11-11",
+    "authors": [
+      6
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 3,
+  "fields": {
+    "name": "Перлини української класики",
+    "pages": 470,
+    "price": "240.00",
+    "rating": 5.0,
+    "publisher": 30,
+    "pubdate": "2022-11-11",
+    "authors": [
+      8
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 4,
+  "fields": {
+    "name": "Пророк. Поеми. Поезії",
+    "pages": 320,
+    "price": "760.00",
+    "rating": 6.5,
+    "publisher": 26,
+    "pubdate": "2022-11-11",
+    "authors": [
+      1
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 5,
+  "fields": {
+    "name": "Скарбниця української класики",
+    "pages": 176,
+    "price": "349.00",
+    "rating": 7.0,
+    "publisher": 25,
+    "pubdate": "2022-11-11",
+    "authors": [
+      3
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 6,
+  "fields": {
+    "name": "Лесная песня ",
+    "pages": 542,
+    "price": "299.00",
+    "rating": 8.5,
+    "publisher": 23,
+    "pubdate": "2022-11-11",
+    "authors": [
+      2
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 7,
+  "fields": {
+    "name": "Бояриня ",
+    "pages": 657,
+    "price": "555.00",
+    "rating": 9.5,
+    "publisher": 21,
+    "pubdate": "2022-11-11",
+    "authors": [
+      8
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 8,
+  "fields": {
+    "name": "Отверженные ",
+    "pages": 644,
+    "price": "599.00",
+    "rating": 8.0,
+    "publisher": 28,
+    "pubdate": "2022-11-11",
+    "authors": [
+      9
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 9,
+  "fields": {
+    "name": "Собор Парижской Богоматери ",
+    "pages": 333,
+    "price": "899.00",
+    "rating": 7.0,
+    "publisher": 27,
+    "pubdate": "2022-11-11",
+    "authors": [
+      11
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 10,
+  "fields": {
+    "name": "Человек",
+    "pages": 432,
+    "price": "679.00",
+    "rating": 8.5,
+    "publisher": 29,
+    "pubdate": "2022-11-11",
+    "authors": [
+      12
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 11,
+  "fields": {
+    "name": "Козетта ",
+    "pages": 651,
+    "price": "399.00",
+    "rating": 9.0,
+    "publisher": 29,
+    "pubdate": "2022-11-11",
+    "authors": [
+      7,
+      15
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 12,
+  "fields": {
+    "name": "Сказка о царе Салтане ",
+    "pages": 188,
+    "price": "299.00",
+    "rating": 9.0,
+    "publisher": 30,
+    "pubdate": "2022-11-11",
+    "authors": [
+      4
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 13,
+  "fields": {
+    "name": "Повести Белкина ",
+    "pages": 288,
+    "price": "299.00",
+    "rating": 9.0,
+    "publisher": 21,
+    "pubdate": "2022-11-11",
+    "authors": [
+      13
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 14,
+  "fields": {
+    "name": "Евгений Онегин ",
+    "pages": 554,
+    "price": "300.00",
+    "rating": 9.5,
+    "publisher": 22,
+    "pubdate": "2022-11-11",
+    "authors": [
+      10
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 15,
+  "fields": {
+    "name": "Барышня-крестьянка ",
+    "pages": 445,
+    "price": "399.00",
+    "rating": 10.0,
+    "publisher": 30,
+    "pubdate": "2022-11-11",
+    "authors": [
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 16,
+  "fields": {
+    "name": "Анна Каренина ",
+    "pages": 444,
+    "price": "400.00",
+    "rating": 5.0,
+    "publisher": 29,
+    "pubdate": "2022-11-11",
+    "authors": [
+      3,
+      8
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 17,
+  "fields": {
+    "name": "Война и мир ",
+    "pages": 559,
+    "price": "751.00",
+    "rating": 3.0,
+    "publisher": 28,
+    "pubdate": "2022-11-11",
+    "authors": [
+      12
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 18,
+  "fields": {
+    "name": "Воскресение ",
+    "pages": 665,
+    "price": "888.00",
+    "rating": 2.5,
+    "publisher": 27,
+    "pubdate": "2022-11-11",
+    "authors": [
+      1,
+      14
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 19,
+  "fields": {
+    "name": "Захар Беркут ",
+    "pages": 687,
+    "price": "905.00",
+    "rating": 6.5,
+    "publisher": 27,
+    "pubdate": "2022-11-11",
+    "authors": [
+      13
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 20,
+  "fields": {
+    "name": "Украдене щастя ",
+    "pages": 327,
+    "price": "321.00",
+    "rating": 7.0,
+    "publisher": 22,
+    "pubdate": "2022-11-11",
+    "authors": [
+      10
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 21,
+  "fields": {
+    "name": "Перехресні стежки ",
+    "pages": 730,
+    "price": "549.00",
+    "rating": 7.0,
+    "publisher": 21,
+    "pubdate": "2022-11-11",
+    "authors": [
+      6
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 22,
+  "fields": {
+    "name": "Изучаем Пайтон",
+    "pages": 267,
+    "price": "350.00",
+    "rating": 8.0,
+    "publisher": 23,
+    "pubdate": "2022-11-11",
+    "authors": [
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 23,
+  "fields": {
+    "name": "Мастер и Маргарита",
+    "pages": 578,
+    "price": "450.00",
+    "rating": 9.0,
+    "publisher": 24,
+    "pubdate": "2022-11-11",
+    "authors": [
+      3
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 24,
+  "fields": {
+    "name": "Викинуті українці",
+    "pages": 618,
+    "price": "650.00",
+    "rating": 9.0,
+    "publisher": 25,
+    "pubdate": "2022-11-11",
+    "authors": [
+      2
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 25,
+  "fields": {
+    "name": "Мастер и Маргарита",
+    "pages": 790,
+    "price": "450.00",
+    "rating": 10.0,
+    "publisher": 24,
+    "pubdate": "2022-11-11",
+    "authors": [
+      1
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 26,
+  "fields": {
+    "name": "Шантарам",
+    "pages": 749,
+    "price": "449.00",
+    "rating": 10.0,
+    "publisher": 24,
+    "pubdate": "2022-11-11",
+    "authors": [
+      1
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 27,
+  "fields": {
+    "name": "Три товарища",
+    "pages": 366,
+    "price": "679.00",
+    "rating": 6.0,
+    "publisher": 22,
+    "pubdate": "2022-11-11",
+    "authors": [
+      1
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 28,
+  "fields": {
+    "name": "Цветы для Элджернона",
+    "pages": 265,
+    "price": "579.00",
+    "rating": 6.5,
+    "publisher": 21,
+    "pubdate": "2022-11-11",
+    "authors": [
+      4
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 29,
+  "fields": {
+    "name": "Портрет Дориана Грея",
+    "pages": 211,
+    "price": "589.00",
+    "rating": 6.5,
+    "publisher": 29,
+    "pubdate": "2022-11-11",
+    "authors": [
+      5
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 30,
+  "fields": {
+    "name": "Маленький принц",
+    "pages": 621,
+    "price": "289.00",
+    "rating": 7.0,
+    "publisher": 29,
+    "pubdate": "2022-11-11",
+    "authors": [
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 31,
+  "fields": {
+    "name": "Телени",
+    "pages": 328,
+    "price": "389.00",
+    "rating": 5.5,
+    "publisher": 29,
+    "pubdate": "2022-11-11",
+    "authors": [
+      8
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 32,
+  "fields": {
+    "name": "Пятьдесят оттенков ",
+    "pages": 956,
+    "price": "279.00",
+    "rating": 5.5,
+    "publisher": 30,
+    "pubdate": "2022-11-11",
+    "authors": [
+      6,
+      8
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 33,
+  "fields": {
+    "name": "Сфинкс",
+    "pages": 921,
+    "price": "379.00",
+    "rating": 4.0,
+    "publisher": 30,
+    "pubdate": "2022-11-11",
+    "authors": [
+      9
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 34,
+  "fields": {
+    "name": "Прикосновение",
+    "pages": 800,
+    "price": "689.00",
+    "rating": 4.0,
+    "publisher": 27,
+    "pubdate": "2022-11-11",
+    "authors": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 35,
+  "fields": {
+    "name": "Пятая Салли",
+    "pages": 754,
+    "price": "579.00",
+    "rating": 4.5,
+    "publisher": 25,
+    "pubdate": "2022-11-11",
+    "authors": [
+      5
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 36,
+  "fields": {
+    "name": "Вино из одуванчиков",
+    "pages": 450,
+    "price": "399.00",
+    "rating": 8.0,
+    "publisher": 26,
+    "pubdate": "2022-11-11",
+    "authors": [
+      9,
+      13
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 37,
+  "fields": {
+    "name": "Над пропастью во ржи",
+    "pages": 327,
+    "price": "433.00",
+    "rating": 8.0,
+    "publisher": 24,
+    "pubdate": "2022-11-11",
+    "authors": [
+      14
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 38,
+  "fields": {
+    "name": "Империя вампиров",
+    "pages": 537,
+    "price": "789.00",
+    "rating": 9.5,
+    "publisher": 23,
+    "pubdate": "2022-11-11",
+    "authors": [
+      14
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 39,
+  "fields": {
+    "name": "Немного ненависти",
+    "pages": 289,
+    "price": "609.00",
+    "rating": 9.0,
+    "publisher": 22,
+    "pubdate": "2022-11-11",
+    "authors": [
+      15
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 40,
+  "fields": {
+    "name": "Что скрывает прилив",
+    "pages": 344,
+    "price": "489.00",
+    "rating": 8.0,
+    "publisher": 21,
+    "pubdate": "2022-11-11",
+    "authors": [
+      2,
+      13
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 41,
+  "fields": {
+    "name": "Та",
+    "pages": 385,
+    "price": "479.00",
+    "rating": 8.0,
+    "publisher": 22,
+    "pubdate": "2022-11-11",
+    "authors": [
+      12
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 42,
+  "fields": {
+    "name": "Сиротки",
+    "pages": 809,
+    "price": "459.00",
+    "rating": 8.5,
+    "publisher": 26,
+    "pubdate": "2022-11-11",
+    "authors": [
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 43,
+  "fields": {
+    "name": "Незримая жизнь Адди Ларю",
+    "pages": 601,
+    "price": "359.00",
+    "rating": 7.0,
+    "publisher": 25,
+    "pubdate": "2022-11-11",
+    "authors": [
+      11
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 44,
+  "fields": {
+    "name": "Финист – Ясный сокол",
+    "pages": 200,
+    "price": "559.00",
+    "rating": 7.5,
+    "publisher": 21,
+    "pubdate": "2022-11-11",
+    "authors": [
+      5,
+      10
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 45,
+  "fields": {
+    "name": "Из крови и пепла",
+    "pages": 154,
+    "price": "489.00",
+    "rating": 10.0,
+    "publisher": 23,
+    "pubdate": "2022-11-11",
+    "authors": [
+      5,
+      6,
+      12
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 46,
+  "fields": {
+    "name": "Оккульттрегер",
+    "pages": 167,
+    "price": "689.00",
+    "rating": 9.0,
+    "publisher": 22,
+    "pubdate": "2022-11-11",
+    "authors": [
+      3
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 47,
+  "fields": {
+    "name": "Стрела",
+    "pages": 899,
+    "price": "399.00",
+    "rating": 9.5,
+    "publisher": 26,
+    "pubdate": "2022-11-11",
+    "authors": [
+      2
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 48,
+  "fields": {
+    "name": "Служба доставки книг",
+    "pages": 705,
+    "price": "489.00",
+    "rating": 4.0,
+    "publisher": 27,
+    "pubdate": "2022-11-11",
+    "authors": [
+      1,
+      7
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 49,
+  "fields": {
+    "name": "Книжный на левом берегу Сены",
+    "pages": 566,
+    "price": "689.00",
+    "rating": 4.5,
+    "publisher": 28,
+    "pubdate": "2022-11-11",
+    "authors": [
+      7
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 50,
+  "fields": {
+    "name": "Дневник книготорговца",
+    "pages": 555,
+    "price": "768.00",
+    "rating": 6.0,
+    "publisher": 25,
+    "pubdate": "2022-11-11",
+    "authors": [
+      1,
+      8
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 51,
+  "fields": {
+    "name": "Аромат книг",
+    "pages": 444,
+    "price": "589.00",
+    "rating": 4.0,
+    "publisher": 24,
+    "pubdate": "2022-11-11",
+    "authors": [
+      2
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 52,
+  "fields": {
+    "name": "Книжная лавка",
+    "pages": 333,
+    "price": "890.00",
+    "rating": 3.0,
+    "publisher": 22,
+    "pubdate": "2022-11-11",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 53,
+  "fields": {
+    "name": "Книжный магазинчик счастья",
+    "pages": 877,
+    "price": "999.00",
+    "rating": 2.0,
+    "publisher": 24,
+    "pubdate": "2022-11-11",
+    "authors": [
+      6
+    ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 54,
+  "fields": {
+    "name": "Книжная лавка под дождём",
+    "pages": 544,
+    "price": "995.00",
+    "rating": 3.5,
+    "publisher": 24,
+    "pubdate": "2022-11-11",
+    "authors": [
+      9
+    ]
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 1,
+  "fields": {
+    "book": 1,
+    "author": 7
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 2,
+  "fields": {
+    "book": 2,
+    "author": 6
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 3,
+  "fields": {
+    "book": 3,
+    "author": 8
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 4,
+  "fields": {
+    "book": 4,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 5,
+  "fields": {
+    "book": 5,
+    "author": 3
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 6,
+  "fields": {
+    "book": 6,
+    "author": 2
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 7,
+  "fields": {
+    "book": 7,
+    "author": 8
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 8,
+  "fields": {
+    "book": 8,
+    "author": 9
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 9,
+  "fields": {
+    "book": 9,
+    "author": 11
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 10,
+  "fields": {
+    "book": 10,
+    "author": 12
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 11,
+  "fields": {
+    "book": 11,
+    "author": 15
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 12,
+  "fields": {
+    "book": 12,
+    "author": 4
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 13,
+  "fields": {
+    "book": 13,
+    "author": 13
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 14,
+  "fields": {
+    "book": 14,
+    "author": 10
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 15,
+  "fields": {
+    "book": 15,
+    "author": 9
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 16,
+  "fields": {
+    "book": 16,
+    "author": 8
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 17,
+  "fields": {
+    "book": 17,
+    "author": 12
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 18,
+  "fields": {
+    "book": 18,
+    "author": 14
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 19,
+  "fields": {
+    "book": 19,
+    "author": 13
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 20,
+  "fields": {
+    "book": 20,
+    "author": 10
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 21,
+  "fields": {
+    "book": 21,
+    "author": 6
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 22,
+  "fields": {
+    "book": 22,
+    "author": 4
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 23,
+  "fields": {
+    "book": 23,
+    "author": 3
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 24,
+  "fields": {
+    "book": 24,
+    "author": 2
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 25,
+  "fields": {
+    "book": 25,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 26,
+  "fields": {
+    "book": 26,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 27,
+  "fields": {
+    "book": 27,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 28,
+  "fields": {
+    "book": 28,
+    "author": 4
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 29,
+  "fields": {
+    "book": 29,
+    "author": 5
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 30,
+  "fields": {
+    "book": 30,
+    "author": 6
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 31,
+  "fields": {
+    "book": 31,
+    "author": 8
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 32,
+  "fields": {
+    "book": 32,
+    "author": 6
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 33,
+  "fields": {
+    "book": 33,
+    "author": 9
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 34,
+  "fields": {
+    "book": 34,
+    "author": 4
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 35,
+  "fields": {
+    "book": 35,
+    "author": 5
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 36,
+  "fields": {
+    "book": 36,
+    "author": 13
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 37,
+  "fields": {
+    "book": 37,
+    "author": 14
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 38,
+  "fields": {
+    "book": 38,
+    "author": 14
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 39,
+  "fields": {
+    "book": 39,
+    "author": 15
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 40,
+  "fields": {
+    "book": 40,
+    "author": 13
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 41,
+  "fields": {
+    "book": 41,
+    "author": 12
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 42,
+  "fields": {
+    "book": 42,
+    "author": 12
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 43,
+  "fields": {
+    "book": 43,
+    "author": 11
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 44,
+  "fields": {
+    "book": 44,
+    "author": 10
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 45,
+  "fields": {
+    "book": 45,
+    "author": 6
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 46,
+  "fields": {
+    "book": 46,
+    "author": 3
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 47,
+  "fields": {
+    "book": 47,
+    "author": 2
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 48,
+  "fields": {
+    "book": 48,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 49,
+  "fields": {
+    "book": 49,
+    "author": 7
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 50,
+  "fields": {
+    "book": 50,
+    "author": 8
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 51,
+  "fields": {
+    "book": 51,
+    "author": 2
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 52,
+  "fields": {
+    "book": 44,
+    "author": 5
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 53,
+  "fields": {
+    "book": 53,
+    "author": 6
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 54,
+  "fields": {
+    "book": 54,
+    "author": 9
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 55,
+  "fields": {
+    "book": 55,
+    "author": 11
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 56,
+  "fields": {
+    "book": 42,
+    "author": 11
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 57,
+  "fields": {
+    "book": 48,
+    "author": 7
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 58,
+  "fields": {
+    "book": 16,
+    "author": 3
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 59,
+  "fields": {
+    "book": 11,
+    "author": 7
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 60,
+  "fields": {
+    "book": 32,
+    "author": 8
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 61,
+  "fields": {
+    "book": 36,
+    "author": 9
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 62,
+  "fields": {
+    "book": 30,
+    "author": 3
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 63,
+  "fields": {
+    "book": 15,
+    "author": 10
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 64,
+  "fields": {
+    "book": 45,
+    "author": 12
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 65,
+  "fields": {
+    "book": 40,
+    "author": 2
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 66,
+  "fields": {
+    "book": 34,
+    "author": 2
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 67,
+  "fields": {
+    "book": 18,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 68,
+  "fields": {
+    "book": 45,
+    "author": 5
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 69,
+  "fields": {
+    "book": 50,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 70,
+  "fields": {
+    "book": 22,
+    "author": 7
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 21,
+  "fields": {
+    "name": "Ранок"
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 22,
+  "fields": {
+    "name": "Генеза"
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 23,
+  "fields": {
+    "name": "Учебники и пособия"
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 24,
+  "fields": {
+    "name": "Освита"
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 25,
+  "fields": {
+    "name": "Иглмосс Эдишинз"
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 26,
+  "fields": {
+    "name": "Грамота"
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 27,
+  "fields": {
+    "name": "Фолио"
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 28,
+  "fields": {
+    "name": "Морион"
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 29,
+  "fields": {
+    "name": "Картография"
+  }
+},
+{
+  "model": "hm12.publisher",
+  "pk": 30,
+  "fields": {
+    "name": "Украина"
+  }
+},
+{
+  "model": "hm12.store",
+  "pk": 1,
+  "fields": {
+    "name": "Мир Книг",
+    "books": [
+      3,
+      9,
+      23,
+      25,
+      36,
+      37,
+      38,
+      41,
+      45,
+      50,
+      51
+    ]
+  }
+},
+{
+  "model": "hm12.store",
+  "pk": 2,
+  "fields": {
+    "name": "Книги бу",
+    "books": [
+      2,
+      8,
+      15,
+      16,
+      24,
+      28,
+      34,
+      35,
+      49,
+      52
+    ]
+  }
+},
+{
+  "model": "hm12.store",
+  "pk": 3,
+  "fields": {
+    "name": "Books-store",
+    "books": [
+      1,
+      6,
+      7,
+      12,
+      18,
+      21,
+      26,
+      30,
+      33,
+      40,
+      44,
+      48,
+      53
+    ]
+  }
+},
+{
+  "model": "hm12.store",
+  "pk": 4,
+  "fields": {
+    "name": "Читай!",
+    "books": [
+      5,
+      11,
+      13,
+      17,
+      20,
+      27,
+      32,
+      43,
+      47,
+      54
+    ]
+  }
+},
+{
+  "model": "hm12.store",
+  "pk": 5,
+  "fields": {
+    "name": "Книжный рай",
+    "books": [
+      4,
+      10,
+      14,
+      22,
+      29,
+      31,
+      39,
+      42,
+      46
+    ]
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 1,
+  "fields": {
+    "store": 3,
+    "book": 1
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 2,
+  "fields": {
+    "store": 2,
+    "book": 2
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 3,
+  "fields": {
+    "store": 1,
+    "book": 3
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 4,
+  "fields": {
+    "store": 5,
+    "book": 4
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 5,
+  "fields": {
+    "store": 4,
+    "book": 5
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 6,
+  "fields": {
+    "store": 3,
+    "book": 6
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7,
+  "fields": {
+    "store": 3,
+    "book": 7
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 8,
+  "fields": {
+    "store": 2,
+    "book": 8
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 9,
+  "fields": {
+    "store": 1,
+    "book": 9
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 10,
+  "fields": {
+    "store": 5,
+    "book": 10
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 11,
+  "fields": {
+    "store": 4,
+    "book": 11
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 12,
+  "fields": {
+    "store": 3,
+    "book": 12
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 13,
+  "fields": {
+    "store": 4,
+    "book": 13
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 14,
+  "fields": {
+    "store": 5,
+    "book": 14
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 15,
+  "fields": {
+    "store": 2,
+    "book": 15
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 16,
+  "fields": {
+    "store": 2,
+    "book": 16
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 17,
+  "fields": {
+    "store": 4,
+    "book": 17
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 18,
+  "fields": {
+    "store": 3,
+    "book": 18
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 19,
+  "fields": {
+    "store": 6,
+    "book": 19
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 20,
+  "fields": {
+    "store": 4,
+    "book": 20
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 21,
+  "fields": {
+    "store": 3,
+    "book": 21
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 22,
+  "fields": {
+    "store": 5,
+    "book": 22
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 23,
+  "fields": {
+    "store": 1,
+    "book": 23
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 24,
+  "fields": {
+    "store": 2,
+    "book": 24
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 25,
+  "fields": {
+    "store": 1,
+    "book": 25
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 26,
+  "fields": {
+    "store": 3,
+    "book": 26
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 27,
+  "fields": {
+    "store": 4,
+    "book": 27
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 28,
+  "fields": {
+    "store": 2,
+    "book": 28
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 29,
+  "fields": {
+    "store": 5,
+    "book": 29
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 30,
+  "fields": {
+    "store": 3,
+    "book": 30
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 31,
+  "fields": {
+    "store": 5,
+    "book": 31
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 32,
+  "fields": {
+    "store": 4,
+    "book": 32
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 33,
+  "fields": {
+    "store": 3,
+    "book": 33
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 34,
+  "fields": {
+    "store": 2,
+    "book": 34
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 35,
+  "fields": {
+    "store": 2,
+    "book": 35
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 36,
+  "fields": {
+    "store": 1,
+    "book": 36
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 37,
+  "fields": {
+    "store": 1,
+    "book": 37
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 38,
+  "fields": {
+    "store": 1,
+    "book": 38
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 39,
+  "fields": {
+    "store": 5,
+    "book": 39
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 40,
+  "fields": {
+    "store": 3,
+    "book": 40
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 41,
+  "fields": {
+    "store": 1,
+    "book": 41
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 42,
+  "fields": {
+    "store": 5,
+    "book": 42
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 43,
+  "fields": {
+    "store": 4,
+    "book": 43
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 44,
+  "fields": {
+    "store": 3,
+    "book": 44
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 45,
+  "fields": {
+    "store": 1,
+    "book": 45
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 46,
+  "fields": {
+    "store": 5,
+    "book": 46
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 47,
+  "fields": {
+    "store": 4,
+    "book": 47
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 48,
+  "fields": {
+    "store": 3,
+    "book": 48
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 49,
+  "fields": {
+    "store": 2,
+    "book": 49
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 50,
+  "fields": {
+    "store": 1,
+    "book": 50
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 51,
+  "fields": {
+    "store": 1,
+    "book": 51
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 52,
+  "fields": {
+    "store": 2,
+    "book": 52
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 53,
+  "fields": {
+    "store": 3,
+    "book": 53
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 54,
+  "fields": {
+    "store": 4,
+    "book": 54
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$190hizexSXlVKRyBoxhha1$9VJ+hSuF7EYfY48d3wPqO6vlD+V8SoKADHDjumvg7Cw=",
+    "last_login": "2022-11-11T08:38:55.711Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "stas37951@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-11-11T08:38:38.605Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

@@ -23,4 +23,5 @@ def get_author(request):
 
 def author(request, pk):
     authors = get_object_or_404(Author, id=pk)
+    author = Author.objects.get(id=pk)
     return render(request, 'author.html', {'authors': authors})

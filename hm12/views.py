@@ -35,7 +35,10 @@ def get_publisher(request):
     return render(request, 'get_publisher.html', {'publishers': publishers})
 
 
-
+def publisher(request, pk):
+    publisher = get_object_or_404(Publisher, id=pk)
+    publishers = publisher.book_set.all()
+    return render(request, 'publisher.html', {'publisher': publisher, 'publishers': publishers})
 
 
 def get_store(request):
@@ -47,6 +50,3 @@ def stores(request, pk):
     store = get_object_or_404(Store, pk=pk)
     books = store.books.all()
     return render(request, 'store.html', {'store': store, 'books': books})
-
-
-

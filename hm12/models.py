@@ -29,10 +29,9 @@ class Book(models.Model):
         return "\n".join([p.authors for p in self.authors.all()])
 
 
-
 class Store(models.Model):
     name = models.CharField(max_length=300)
     books = models.ManyToManyField(Book)
 
     def get_books(self):
-        return "\n".join([p.books for p in self.books.all()])
+        return "\n".join([p.name for p in self.books.all()])

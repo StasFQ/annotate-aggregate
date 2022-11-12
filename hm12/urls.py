@@ -1,6 +1,6 @@
 from django.urls import path
 
-from hm12.views import main_page, get_books, get_author, book, author, get_publisher, get_store, stores
+from hm12.views import main_page, get_books, get_author, book, author, get_publisher, get_store, stores, publisher
 
 app_name = 'hm12'
 urlpatterns = [
@@ -10,6 +10,7 @@ urlpatterns = [
     path('book/<int:pk>/', book, name='book'),
     path('author/<int:pk>/', author, name='author'),
     path('publisher/', get_publisher, name='get_publisher'),
+    path('publisher/<int:pk>/', publisher, name='publisher'),
     path('store/', get_store, name='get_store'),
     path('store/<int:pk>/', stores, name='store')
 

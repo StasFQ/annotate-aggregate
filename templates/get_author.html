@@ -7,10 +7,10 @@
 <body>
      {%  for auth in authors %}
         <a href="{% url 'hm12:author' auth.id %}">{{ auth.name }}</a>
-         <p></p>
-         {% for a in auth.authors.id %}
+         {% for a in auth.book_set.all %}
              {{ a.name }},
          {% endfor %}
+         <p></p>
     {% endfor %}
 
 </body>

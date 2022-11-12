@@ -17,11 +17,12 @@ def book(request, pk):
 
 
 def get_author(request):
-    authors = Author.objects.prefetch_related('authors').all()
+    authors = Author.objects.prefetch_related('book_set').all()
     return render(request, 'get_author.html', {'authors': authors})
 
 
 def author(request, pk):
     authors = get_object_or_404(Author, id=pk)
-    author = Author.objects.get(id=pk)
-    return render(request, 'author.html', {'authors': authors})
+    author = Author.objects.prefetch_related('book_set').get(id=pk)
+    return render(request, 'author.html', {'authors': authors,
+                                           'author': author})

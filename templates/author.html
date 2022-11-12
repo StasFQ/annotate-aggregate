@@ -5,6 +5,8 @@
     <title>Title</title>
 </head>
 <body>
-    {{ authors.name }}
+    {% for a in author.book_set.all %}
+             {{ a.name }},
+         {% endfor %}
 </body>
 </html>

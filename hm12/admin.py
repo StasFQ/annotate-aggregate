@@ -16,7 +16,7 @@ class PublisherAdmin(admin.ModelAdmin):
 
 
 class BookAdmin(admin.ModelAdmin):
-    list_display = ['name', 'pages', 'price', 'rating', 'get_rating', 'publisher', 'pubdate']
+    list_display = ['name', 'pages', 'price', 'publisher', 'pubdate']
     list_filter = ['pages', 'price']
     search_fields = ['name', 'rating']
     ordering = ['price']

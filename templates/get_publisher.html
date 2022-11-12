@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+    {%  for p in publishers %}
+        <a href="{% url 'hm12:get_publisher'  %}">{{ p.name }}</a>
+        {% for b in p.book_set.all %}
+            {{ b.name }}
+        {% endfor %}
+        <p></p>
+    {% endfor %}
 </body>
-</html>
+</html>f

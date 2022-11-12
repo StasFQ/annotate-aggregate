@@ -22,11 +22,12 @@ class Book(models.Model):
     publisher = models.ForeignKey(Publisher, on_delete=models.CASCADE)
     pubdate = models.DateField()
 
+    def __str__(self):
+        return self.name
+
     def get_rating(self):
         return "\n".join([p.authors for p in self.authors.all()])
 
-    def __str__(self):
-        return self.name
 
 
 class Store(models.Model):

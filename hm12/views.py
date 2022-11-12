@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Book, Author
+from .models import Book, Author, Publisher, Store
 
 
 def main_page(request):
@@ -13,7 +13,9 @@ def get_books(request):
 
 def book(request, pk):
     book = get_object_or_404(Book, id=pk)
-    return render(request, 'book.html', {'book': book})
+    books = book.authors.all()
+    return render(request, 'book.html', {'book': book,
+                                         'books': books})
 
 
 def get_author(request):
@@ -23,6 +25,28 @@ def get_author(request):
 
 def author(request, pk):
     authors = get_object_or_404(Author, id=pk)
-    author = Author.objects.prefetch_related('book_set').get(id=pk)
+    author = authors.book_set.all()
     return render(request, 'author.html', {'authors': authors,
                                            'author': author})
+
+
+def get_publisher(request):
+    publishers = Publisher.objects.prefetch_related('book_set').all()
+    return render(request, 'get_publisher.html', {'publishers': publishers})
+
+
+
+
+
+def get_store(request):
+    store = Store.objects.prefetch_related('books').all()
+    return render(request, 'get_store.html', {'store': store})
+
+
+def stores(request, pk):
+    store = get_object_or_404(Store, pk=pk)
+    books = store.books.all()
+    return render(request, 'store.html', {'store': store, 'books': books})
+
+
+

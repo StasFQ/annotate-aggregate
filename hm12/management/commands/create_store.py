@@ -6,16 +6,14 @@ from hm12.models import Book, Store
 
 
 class Command(BaseCommand):
-    def add_arguments(self, parser):
-        parser.add_argument('number', type=int, choices=range(1, 50))
+
 
     def handle(self, *args, **options):
         s = ['Книжный рай', 'Читай', 'Books-store', 'Книги бу', 'Мир Книг']
         stores = []
-        for i in range(options['number']):
+        for i in range(1, 6):
             name = random.choice(s)
-            if name not in Store.objects.name:
-                stores.append(Store(name=name))
+            stores.append(Store(name=name))
         Store.objects.bulk_create(stores)
         book_ids = Book.objects.values_list('id', flat=True)
         for i in range(len(book_ids)):

@@ -22,6 +22,5 @@ class Command(BaseCommand):
         Book.objects.bulk_create(books)
         author_ids = Author.objects.values_list('id', flat=True)
         for i in range(len(author_ids)):
-            a = random.randint(1, 5)
-            book = Book.objects.get(id=a)
+            book = random.choice(books)
             book.authors.add(random.choice(author_ids))

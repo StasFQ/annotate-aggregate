@@ -16,6 +16,5 @@ class Command(BaseCommand):
         Store.objects.bulk_create(stores)
         book_ids = Book.objects.values_list('id', flat=True)
         for i in range(len(book_ids)):
-            a = random.randint(1, 5)
-            store = Store.objects.get(id=a)
+            store = random.choice(stores)
             store.books.add(random.choice(book_ids))

@@ -1379,7 +1379,7 @@
   "model": "hm12.book_authors",
   "pk": 55,
   "fields": {
-    "book": 55,
+    "book": 53,
     "author": 11
   }
 },
@@ -1819,7 +1819,7 @@
   "model": "hm12.store_books",
   "pk": 19,
   "fields": {
-    "store": 6,
+    "store": 4,
     "book": 19
   }
 },

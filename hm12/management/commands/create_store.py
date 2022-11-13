@@ -7,7 +7,6 @@ from hm12.models import Book, Store
 
 class Command(BaseCommand):
 
-
     def handle(self, *args, **options):
         s = ['Книжный рай', 'Читай', 'Books-store', 'Книги бу', 'Мир Книг']
         stores = []

@@ -7,7 +7,7 @@
 <body>
 <form>
     {% for b in book %}
-        <a href="{% url 'hm12:book' b.id %}">{{ b.name }}</a> {{ b.pages }}, {{ b.price }}, {{ b.rating }}, {{ b.pub_date }}
+        <a href="{% url 'hm12:book' b.id %}">{{ b.name }}</a> {{ b.pages }}, {{ b.price }}, {{ b.rating }}, {{ b.pubdate }}
         {% for a in b.authors.all %}
              {{ a.name }}
         {% endfor %}

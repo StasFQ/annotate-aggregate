@@ -9,7 +9,6 @@ from random import randrange
 from datetime import timedelta
 
 
-
 class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument('number',  type=int, choices=range(1, 11))

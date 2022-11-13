@@ -128,9 +128,20 @@
     "price": "416.00",
     "rating": 8.0,
     "publisher": 22,
-    "pubdate": "2022-11-11",
+    "pubdate": "2004-01-13",
     "authors": [
-      7
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
     ]
   }
 },
@@ -143,9 +154,20 @@
     "price": "350.00",
     "rating": 10.0,
     "publisher": 21,
-    "pubdate": "2022-11-11",
+    "pubdate": "2004-03-06",
     "authors": [
-      6
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
     ]
   }
 },
@@ -158,9 +180,17 @@
     "price": "240.00",
     "rating": 5.0,
     "publisher": 30,
-    "pubdate": "2022-11-11",
+    "pubdate": "2008-12-21",
     "authors": [
-      8
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      11,
+      13,
+      15
     ]
   }
 },
@@ -173,9 +203,18 @@
     "price": "760.00",
     "rating": 6.5,
     "publisher": 26,
-    "pubdate": "2022-11-11",
+    "pubdate": "2011-04-04",
     "authors": [
-      1
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13,
+      15
     ]
   }
 },
@@ -188,9 +227,16 @@
     "price": "349.00",
     "rating": 7.0,
     "publisher": 25,
-    "pubdate": "2022-11-11",
+    "pubdate": "2007-04-06",
     "authors": [
-      3
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      11,
+      15
     ]
   }
 },
@@ -203,7 +249,7 @@
     "price": "299.00",
     "rating": 8.5,
     "publisher": 23,
-    "pubdate": "2022-11-11",
+    "pubdate": "2001-05-26",
     "authors": [
       2
     ]
@@ -218,7 +264,7 @@
     "price": "555.00",
     "rating": 9.5,
     "publisher": 21,
-    "pubdate": "2022-11-11",
+    "pubdate": "2005-12-25",
     "authors": [
       8
     ]
@@ -233,7 +279,7 @@
     "price": "599.00",
     "rating": 8.0,
     "publisher": 28,
-    "pubdate": "2022-11-11",
+    "pubdate": "2011-11-27",
     "authors": [
       9
     ]
@@ -248,7 +294,7 @@
     "price": "899.00",
     "rating": 7.0,
     "publisher": 27,
-    "pubdate": "2022-11-11",
+    "pubdate": "2012-12-06",
     "authors": [
       11
     ]
@@ -263,7 +309,7 @@
     "price": "679.00",
     "rating": 8.5,
     "publisher": 29,
-    "pubdate": "2022-11-11",
+    "pubdate": "2007-10-12",
     "authors": [
       12
     ]
@@ -278,7 +324,7 @@
     "price": "399.00",
     "rating": 9.0,
     "publisher": 29,
-    "pubdate": "2022-11-11",
+    "pubdate": "2012-04-08",
     "authors": [
       7,
       15
@@ -294,7 +340,7 @@
     "price": "299.00",
     "rating": 9.0,
     "publisher": 30,
-    "pubdate": "2022-11-11",
+    "pubdate": "2000-06-07",
     "authors": [
       4
     ]
@@ -309,7 +355,7 @@
     "price": "299.00",
     "rating": 9.0,
     "publisher": 21,
-    "pubdate": "2022-11-11",
+    "pubdate": "2006-08-16",
     "authors": [
       13
     ]
@@ -324,7 +370,7 @@
     "price": "300.00",
     "rating": 9.5,
     "publisher": 22,
-    "pubdate": "2022-11-11",
+    "pubdate": "2006-11-22",
     "authors": [
       10
     ]
@@ -339,7 +385,7 @@
     "price": "399.00",
     "rating": 10.0,
     "publisher": 30,
-    "pubdate": "2022-11-11",
+    "pubdate": "2005-09-04",
     "authors": [
       9,
       10
@@ -355,7 +401,7 @@
     "price": "400.00",
     "rating": 5.0,
     "publisher": 29,
-    "pubdate": "2022-11-11",
+    "pubdate": "2002-12-04",
     "authors": [
       3,
       8
@@ -371,7 +417,7 @@
     "price": "751.00",
     "rating": 3.0,
     "publisher": 28,
-    "pubdate": "2022-11-11",
+    "pubdate": "2011-05-18",
     "authors": [
       12
     ]
@@ -386,7 +432,7 @@
     "price": "888.00",
     "rating": 2.5,
     "publisher": 27,
-    "pubdate": "2022-11-11",
+    "pubdate": "2007-12-09",
     "authors": [
       1,
       14
@@ -402,7 +448,7 @@
     "price": "905.00",
     "rating": 6.5,
     "publisher": 27,
-    "pubdate": "2022-11-11",
+    "pubdate": "2008-05-23",
     "authors": [
       13
     ]
@@ -417,7 +463,7 @@
     "price": "321.00",
     "rating": 7.0,
     "publisher": 22,
-    "pubdate": "2022-11-11",
+    "pubdate": "2004-09-05",
     "authors": [
       10
     ]
@@ -432,7 +478,7 @@
     "price": "549.00",
     "rating": 7.0,
     "publisher": 21,
-    "pubdate": "2022-11-11",
+    "pubdate": "2011-09-30",
     "authors": [
       6
     ]
@@ -447,7 +493,7 @@
     "price": "350.00",
     "rating": 8.0,
     "publisher": 23,
-    "pubdate": "2022-11-11",
+    "pubdate": "2010-10-18",
     "authors": [
       4,
       7
@@ -463,7 +509,7 @@
     "price": "450.00",
     "rating": 9.0,
     "publisher": 24,
-    "pubdate": "2022-11-11",
+    "pubdate": "2013-01-09",
     "authors": [
       3
     ]
@@ -478,7 +524,7 @@
     "price": "650.00",
     "rating": 9.0,
     "publisher": 25,
-    "pubdate": "2022-11-11",
+    "pubdate": "2003-10-27",
     "authors": [
       2
     ]
@@ -493,7 +539,7 @@
     "price": "450.00",
     "rating": 10.0,
     "publisher": 24,
-    "pubdate": "2022-11-11",
+    "pubdate": "2005-10-03",
     "authors": [
       1
     ]
@@ -508,7 +554,7 @@
     "price": "449.00",
     "rating": 10.0,
     "publisher": 24,
-    "pubdate": "2022-11-11",
+    "pubdate": "2013-02-08",
     "authors": [
       1
     ]
@@ -523,7 +569,7 @@
     "price": "679.00",
     "rating": 6.0,
     "publisher": 22,
-    "pubdate": "2022-11-11",
+    "pubdate": "2008-10-20",
     "authors": [
       1
     ]
@@ -538,7 +584,7 @@
     "price": "579.00",
     "rating": 6.5,
     "publisher": 21,
-    "pubdate": "2022-11-11",
+    "pubdate": "2002-06-01",
     "authors": [
       4
     ]
@@ -553,7 +599,7 @@
     "price": "589.00",
     "rating": 6.5,
     "publisher": 29,
-    "pubdate": "2022-11-11",
+    "pubdate": "2008-09-06",
     "authors": [
       5
     ]
@@ -568,7 +614,7 @@
     "price": "289.00",
     "rating": 7.0,
     "publisher": 29,
-    "pubdate": "2022-11-11",
+    "pubdate": "2005-05-14",
     "authors": [
       3,
       6
@@ -584,7 +630,7 @@
     "price": "389.00",
     "rating": 5.5,
     "publisher": 29,
-    "pubdate": "2022-11-11",
+    "pubdate": "2002-09-15",
     "authors": [
       8
     ]
@@ -599,7 +645,7 @@
     "price": "279.00",
     "rating": 5.5,
     "publisher": 30,
-    "pubdate": "2022-11-11",
+    "pubdate": "2004-11-12",
     "authors": [
       6,
       8
@@ -615,7 +661,7 @@
     "price": "379.00",
     "rating": 4.0,
     "publisher": 30,
-    "pubdate": "2022-11-11",
+    "pubdate": "2012-07-15",
     "authors": [
       9
     ]
@@ -630,7 +676,7 @@
     "price": "689.00",
     "rating": 4.0,
     "publisher": 27,
-    "pubdate": "2022-11-11",
+    "pubdate": "2011-10-07",
     "authors": [
       2,
       4
@@ -646,7 +692,7 @@
     "price": "579.00",
     "rating": 4.5,
     "publisher": 25,
-    "pubdate": "2022-11-11",
+    "pubdate": "2000-06-06",
     "authors": [
       5
     ]
@@ -661,7 +707,7 @@
     "price": "399.00",
     "rating": 8.0,
     "publisher": 26,
-    "pubdate": "2022-11-11",
+    "pubdate": "2006-05-30",
     "authors": [
       9,
       13
@@ -677,7 +723,7 @@
     "price": "433.00",
     "rating": 8.0,
     "publisher": 24,
-    "pubdate": "2022-11-11",
+    "pubdate": "2006-11-13",
     "authors": [
       14
     ]
@@ -692,7 +738,7 @@
     "price": "789.00",
     "rating": 9.5,
     "publisher": 23,
-    "pubdate": "2022-11-11",
+    "pubdate": "2008-02-03",
     "authors": [
       14
     ]
@@ -707,7 +753,7 @@
     "price": "609.00",
     "rating": 9.0,
     "publisher": 22,
-    "pubdate": "2022-11-11",
+    "pubdate": "2005-01-07",
     "authors": [
       15
     ]
@@ -722,7 +768,7 @@
     "price": "489.00",
     "rating": 8.0,
     "publisher": 21,
-    "pubdate": "2022-11-11",
+    "pubdate": "2008-10-03",
     "authors": [
       2,
       13
@@ -738,7 +784,7 @@
     "price": "479.00",
     "rating": 8.0,
     "publisher": 22,
-    "pubdate": "2022-11-11",
+    "pubdate": "2013-03-31",
     "authors": [
       12
     ]
@@ -753,7 +799,7 @@
     "price": "459.00",
     "rating": 8.5,
     "publisher": 26,
-    "pubdate": "2022-11-11",
+    "pubdate": "2001-12-20",
     "authors": [
       11,
       12
@@ -769,7 +815,7 @@
     "price": "359.00",
     "rating": 7.0,
     "publisher": 25,
-    "pubdate": "2022-11-11",
+    "pubdate": "2010-04-16",
     "authors": [
       11
     ]
@@ -784,7 +830,7 @@
     "price": "559.00",
     "rating": 7.5,
     "publisher": 21,
-    "pubdate": "2022-11-11",
+    "pubdate": "2008-09-12",
     "authors": [
       5,
       10
@@ -800,7 +846,7 @@
     "price": "489.00",
     "rating": 10.0,
     "publisher": 23,
-    "pubdate": "2022-11-11",
+    "pubdate": "2000-10-06",
     "authors": [
       5,
       6,
@@ -817,7 +863,7 @@
     "price": "689.00",
     "rating": 9.0,
     "publisher": 22,
-    "pubdate": "2022-11-11",
+    "pubdate": "2003-04-10",
     "authors": [
       3
     ]
@@ -832,7 +878,7 @@
     "price": "399.00",
     "rating": 9.5,
     "publisher": 26,
-    "pubdate": "2022-11-11",
+    "pubdate": "2006-12-20",
     "authors": [
       2
     ]
@@ -847,7 +893,7 @@
     "price": "489.00",
     "rating": 4.0,
     "publisher": 27,
-    "pubdate": "2022-11-11",
+    "pubdate": "2011-03-17",
     "authors": [
       1,
       7
@@ -863,7 +909,7 @@
     "price": "689.00",
     "rating": 4.5,
     "publisher": 28,
-    "pubdate": "2022-11-11",
+    "pubdate": "2001-07-22",
     "authors": [
       7
     ]
@@ -878,7 +924,7 @@
     "price": "768.00",
     "rating": 6.0,
     "publisher": 25,
-    "pubdate": "2022-11-11",
+    "pubdate": "2007-06-11",
     "authors": [
       1,
       8
@@ -894,7 +940,7 @@
     "price": "589.00",
     "rating": 4.0,
     "publisher": 24,
-    "pubdate": "2022-11-11",
+    "pubdate": "2001-03-01",
     "authors": [
       2
     ]
@@ -909,7 +955,7 @@
     "price": "890.00",
     "rating": 3.0,
     "publisher": 22,
-    "pubdate": "2022-11-11",
+    "pubdate": "2009-05-30",
     "authors": []
   }
 },
@@ -922,9 +968,10 @@
     "price": "999.00",
     "rating": 2.0,
     "publisher": 24,
-    "pubdate": "2022-11-11",
+    "pubdate": "2007-05-24",
     "authors": [
-      6
+      6,
+      11
     ]
   }
 },
@@ -937,10 +984,244 @@
     "price": "995.00",
     "rating": 3.5,
     "publisher": 24,
-    "pubdate": "2022-11-11",
+    "pubdate": "2009-02-01",
     "authors": [
       9
     ]
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 55,
+  "fields": {
+    "name": "Евгений Онегин",
+    "pages": 379,
+    "price": "212.00",
+    "rating": 2.0,
+    "publisher": 26,
+    "pubdate": "2011-02-08",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 56,
+  "fields": {
+    "name": "Человек",
+    "pages": 258,
+    "price": "244.00",
+    "rating": 8.0,
+    "publisher": 27,
+    "pubdate": "2002-08-25",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 57,
+  "fields": {
+    "name": "Перлини української класики",
+    "pages": 357,
+    "price": "269.00",
+    "rating": 4.0,
+    "publisher": 29,
+    "pubdate": "2009-02-12",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 58,
+  "fields": {
+    "name": "Оккульттрегер",
+    "pages": 366,
+    "price": "292.00",
+    "rating": 7.0,
+    "publisher": 23,
+    "pubdate": "2001-02-07",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 59,
+  "fields": {
+    "name": "Стрела",
+    "pages": 276,
+    "price": "257.00",
+    "rating": 6.0,
+    "publisher": 30,
+    "pubdate": "2004-05-16",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 60,
+  "fields": {
+    "name": "Сиротки",
+    "pages": 321,
+    "price": "216.00",
+    "rating": 5.0,
+    "publisher": 30,
+    "pubdate": "2004-04-10",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 61,
+  "fields": {
+    "name": "Из крови и пепла",
+    "pages": 223,
+    "price": "331.00",
+    "rating": 10.0,
+    "publisher": 24,
+    "pubdate": "2011-06-06",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 62,
+  "fields": {
+    "name": "Цвет для Элджернона",
+    "pages": 350,
+    "price": "238.00",
+    "rating": 10.0,
+    "publisher": 23,
+    "pubdate": "2012-02-03",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 63,
+  "fields": {
+    "name": "Пятая Салли",
+    "pages": 339,
+    "price": "244.00",
+    "rating": 8.0,
+    "publisher": 27,
+    "pubdate": "2005-02-08",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 64,
+  "fields": {
+    "name": "Империя вампиров",
+    "pages": 279,
+    "price": "223.00",
+    "rating": 6.0,
+    "publisher": 21,
+    "pubdate": "2002-08-11",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 65,
+  "fields": {
+    "name": "Перехресні стежки",
+    "pages": 388,
+    "price": "257.00",
+    "rating": 6.0,
+    "publisher": 22,
+    "pubdate": "2002-11-08",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 66,
+  "fields": {
+    "name": "Harry Potter",
+    "pages": 358,
+    "price": "311.00",
+    "rating": 5.0,
+    "publisher": 25,
+    "pubdate": "2003-06-27",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 67,
+  "fields": {
+    "name": "Сказка о царе Салтане",
+    "pages": 313,
+    "price": "298.00",
+    "rating": 9.0,
+    "publisher": 30,
+    "pubdate": "2002-01-15",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 68,
+  "fields": {
+    "name": "Скарбниця української класик",
+    "pages": 293,
+    "price": "237.00",
+    "rating": 3.0,
+    "publisher": 27,
+    "pubdate": "2008-10-11",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 69,
+  "fields": {
+    "name": "Book_0",
+    "pages": 249,
+    "price": "215.00",
+    "rating": 10.0,
+    "publisher": 26,
+    "pubdate": "2010-03-12",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 70,
+  "fields": {
+    "name": "Book_1",
+    "pages": 229,
+    "price": "337.00",
+    "rating": 6.0,
+    "publisher": 22,
+    "pubdate": "2006-03-05",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 79,
+  "fields": {
+    "name": "Book_0",
+    "pages": 338,
+    "price": "315.00",
+    "rating": 6.0,
+    "publisher": 27,
+    "pubdate": "2004-08-31",
+    "authors": []
+  }
+},
+{
+  "model": "hm12.book",
+  "pk": 80,
+  "fields": {
+    "name": "Book_1",
+    "pages": 361,
+    "price": "216.00",
+    "rating": 2.0,
+    "publisher": 24,
+    "pubdate": "2004-08-31",
+    "authors": []
   }
 },
 {
@@ -1504,6 +1785,374 @@
   }
 },
 {
+  "model": "hm12.book_authors",
+  "pk": 71,
+  "fields": {
+    "book": 2,
+    "author": 4
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 72,
+  "fields": {
+    "book": 2,
+    "author": 11
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 73,
+  "fields": {
+    "book": 1,
+    "author": 2
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 74,
+  "fields": {
+    "book": 3,
+    "author": 6
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 76,
+  "fields": {
+    "book": 4,
+    "author": 4
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 77,
+  "fields": {
+    "book": 2,
+    "author": 14
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 78,
+  "fields": {
+    "book": 4,
+    "author": 7
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 79,
+  "fields": {
+    "book": 3,
+    "author": 3
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 80,
+  "fields": {
+    "book": 4,
+    "author": 10
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 82,
+  "fields": {
+    "book": 3,
+    "author": 15
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 83,
+  "fields": {
+    "book": 5,
+    "author": 8
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 84,
+  "fields": {
+    "book": 3,
+    "author": 5
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 85,
+  "fields": {
+    "book": 2,
+    "author": 10
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 86,
+  "fields": {
+    "book": 2,
+    "author": 2
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 87,
+  "fields": {
+    "book": 4,
+    "author": 6
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 88,
+  "fields": {
+    "book": 4,
+    "author": 15
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 89,
+  "fields": {
+    "book": 3,
+    "author": 4
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 90,
+  "fields": {
+    "book": 1,
+    "author": 9
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 91,
+  "fields": {
+    "book": 5,
+    "author": 9
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 92,
+  "fields": {
+    "book": 1,
+    "author": 12
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 93,
+  "fields": {
+    "book": 3,
+    "author": 13
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 94,
+  "fields": {
+    "book": 2,
+    "author": 8
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 96,
+  "fields": {
+    "book": 1,
+    "author": 13
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 97,
+  "fields": {
+    "book": 2,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 98,
+  "fields": {
+    "book": 3,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 99,
+  "fields": {
+    "book": 1,
+    "author": 4
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 100,
+  "fields": {
+    "book": 5,
+    "author": 11
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 103,
+  "fields": {
+    "book": 2,
+    "author": 12
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 104,
+  "fields": {
+    "book": 3,
+    "author": 11
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 105,
+  "fields": {
+    "book": 2,
+    "author": 13
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 106,
+  "fields": {
+    "book": 4,
+    "author": 3
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 108,
+  "fields": {
+    "book": 5,
+    "author": 2
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 109,
+  "fields": {
+    "book": 1,
+    "author": 11
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 111,
+  "fields": {
+    "book": 5,
+    "author": 7
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 113,
+  "fields": {
+    "book": 2,
+    "author": 5
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 114,
+  "fields": {
+    "book": 1,
+    "author": 3
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 117,
+  "fields": {
+    "book": 2,
+    "author": 9
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 123,
+  "fields": {
+    "book": 4,
+    "author": 12
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 127,
+  "fields": {
+    "book": 1,
+    "author": 5
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 131,
+  "fields": {
+    "book": 1,
+    "author": 10
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 133,
+  "fields": {
+    "book": 1,
+    "author": 1
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 134,
+  "fields": {
+    "book": 1,
+    "author": 15
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 135,
+  "fields": {
+    "book": 5,
+    "author": 15
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 136,
+  "fields": {
+    "book": 4,
+    "author": 8
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 143,
+  "fields": {
+    "book": 5,
+    "author": 5
+  }
+},
+{
+  "model": "hm12.book_authors",
+  "pk": 145,
+  "fields": {
+    "book": 4,
+    "author": 13
+  }
+},
+{
   "model": "hm12.publisher",
   "pk": 21,
   "fields": {
@@ -1579,17 +2228,44 @@
   "fields": {
     "name": "Мир Книг",
     "books": [
+      1,
       3,
+      5,
+      6,
+      8,
       9,
+      10,
+      11,
+      12,
+      14,
+      18,
+      19,
+      20,
+      21,
       23,
+      24,
       25,
+      26,
+      28,
+      31,
+      33,
+      35,
       36,
       37,
       38,
       41,
+      42,
+      43,
+      44,
       45,
+      46,
+      49,
       50,
-      51
+      51,
+      53,
+      57,
+      58,
+      59
     ]
   }
 },
@@ -1599,16 +2275,46 @@
   "fields": {
     "name": "Книги бу",
     "books": [
+      1,
       2,
+      3,
+      6,
+      7,
       8,
+      9,
+      10,
+      11,
+      13,
       15,
       16,
+      17,
+      18,
+      19,
+      22,
       24,
+      26,
       28,
+      29,
+      31,
+      33,
       34,
       35,
+      38,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      48,
       49,
-      52
+      50,
+      52,
+      53,
+      56,
+      58,
+      59,
+      62
     ]
   }
 },
@@ -1619,18 +2325,44 @@
     "name": "Books-store",
     "books": [
       1,
+      4,
+      5,
       6,
       7,
+      11,
       12,
+      15,
+      16,
       18,
+      19,
+      20,
       21,
+      22,
       26,
+      27,
       30,
+      31,
+      32,
       33,
+      34,
+      35,
+      37,
       40,
+      41,
+      43,
       44,
+      45,
+      46,
       48,
-      53
+      50,
+      53,
+      54,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
     ]
   }
 },
@@ -1640,16 +2372,43 @@
   "fields": {
     "name": "Читай!",
     "books": [
+      3,
       5,
+      6,
+      7,
+      8,
       11,
       13,
+      14,
+      15,
+      16,
       17,
+      18,
+      19,
       20,
+      22,
+      23,
+      24,
       27,
+      31,
       32,
+      33,
+      34,
+      35,
+      36,
+      41,
       43,
+      44,
       47,
-      54
+      49,
+      50,
+      51,
+      54,
+      55,
+      56,
+      59,
+      60,
+      62
     ]
   }
 },
@@ -1659,15 +2418,48 @@
   "fields": {
     "name": "Книжный рай",
     "books": [
+      1,
+      2,
       4,
+      6,
+      7,
+      8,
       10,
+      11,
       14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
       22,
+      24,
+      25,
+      26,
+      27,
+      28,
       29,
+      30,
       31,
+      33,
+      35,
+      36,
+      38,
       39,
+      40,
+      41,
       42,
-      46
+      44,
+      45,
+      46,
+      47,
+      48,
+      51,
+      56,
+      59,
+      60,
+      61
     ]
   }
 },
@@ -2104,21 +2896,1139 @@
   }
 },
 {
-  "model": "auth.user",
-  "pk": 1,
+  "model": "hm12.store_books",
+  "pk": 7774,
   "fields": {
-    "password": "pbkdf2_sha256$390000$190hizexSXlVKRyBoxhha1$9VJ+hSuF7EYfY48d3wPqO6vlD+V8SoKADHDjumvg7Cw=",
-    "last_login": "2022-11-11T08:38:55.711Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "",
-    "last_name": "",
-    "email": "stas37951@gmail.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2022-11-11T08:38:38.605Z",
-    "groups": [],
-    "user_permissions": []
+    "store": 3,
+    "book": 20
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7775,
+  "fields": {
+    "store": 5,
+    "book": 8
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7777,
+  "fields": {
+    "store": 1,
+    "book": 21
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7778,
+  "fields": {
+    "store": 2,
+    "book": 22
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7779,
+  "fields": {
+    "store": 5,
+    "book": 25
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7780,
+  "fields": {
+    "store": 4,
+    "book": 50
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7781,
+  "fields": {
+    "store": 1,
+    "book": 33
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7782,
+  "fields": {
+    "store": 3,
+    "book": 4
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7783,
+  "fields": {
+    "store": 4,
+    "book": 16
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7784,
+  "fields": {
+    "store": 2,
+    "book": 40
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7785,
+  "fields": {
+    "store": 4,
+    "book": 60
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7787,
+  "fields": {
+    "store": 1,
+    "book": 6
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7788,
+  "fields": {
+    "store": 2,
+    "book": 41
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7789,
+  "fields": {
+    "store": 1,
+    "book": 19
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7790,
+  "fields": {
+    "store": 4,
+    "book": 59
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7791,
+  "fields": {
+    "store": 1,
+    "book": 14
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7792,
+  "fields": {
+    "store": 5,
+    "book": 28
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7793,
+  "fields": {
+    "store": 1,
+    "book": 59
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7794,
+  "fields": {
+    "store": 1,
+    "book": 43
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7795,
+  "fields": {
+    "store": 4,
+    "book": 56
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7796,
+  "fields": {
+    "store": 4,
+    "book": 23
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7798,
+  "fields": {
+    "store": 1,
+    "book": 53
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7800,
+  "fields": {
+    "store": 4,
+    "book": 18
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7802,
+  "fields": {
+    "store": 4,
+    "book": 44
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7803,
+  "fields": {
+    "store": 5,
+    "book": 26
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7804,
+  "fields": {
+    "store": 5,
+    "book": 44
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7805,
+  "fields": {
+    "store": 2,
+    "book": 42
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7806,
+  "fields": {
+    "store": 5,
+    "book": 60
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7807,
+  "fields": {
+    "store": 3,
+    "book": 45
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7809,
+  "fields": {
+    "store": 2,
+    "book": 29
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7810,
+  "fields": {
+    "store": 1,
+    "book": 18
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7812,
+  "fields": {
+    "store": 3,
+    "book": 41
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7814,
+  "fields": {
+    "store": 3,
+    "book": 62
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7815,
+  "fields": {
+    "store": 5,
+    "book": 20
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7816,
+  "fields": {
+    "store": 2,
+    "book": 44
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7818,
+  "fields": {
+    "store": 5,
+    "book": 21
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7819,
+  "fields": {
+    "store": 1,
+    "book": 49
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7821,
+  "fields": {
+    "store": 3,
+    "book": 43
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7822,
+  "fields": {
+    "store": 1,
+    "book": 35
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7825,
+  "fields": {
+    "store": 3,
+    "book": 35
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7826,
+  "fields": {
+    "store": 1,
+    "book": 1
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7828,
+  "fields": {
+    "store": 5,
+    "book": 38
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7829,
+  "fields": {
+    "store": 2,
+    "book": 18
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7831,
+  "fields": {
+    "store": 2,
+    "book": 56
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7832,
+  "fields": {
+    "store": 3,
+    "book": 11
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7833,
+  "fields": {
+    "store": 5,
+    "book": 30
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7834,
+  "fields": {
+    "store": 2,
+    "book": 10
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7835,
+  "fields": {
+    "store": 5,
+    "book": 59
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7837,
+  "fields": {
+    "store": 5,
+    "book": 17
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7839,
+  "fields": {
+    "store": 1,
+    "book": 28
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7840,
+  "fields": {
+    "store": 1,
+    "book": 24
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7841,
+  "fields": {
+    "store": 4,
+    "book": 36
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7842,
+  "fields": {
+    "store": 1,
+    "book": 26
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7846,
+  "fields": {
+    "store": 2,
+    "book": 33
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7847,
+  "fields": {
+    "store": 4,
+    "book": 41
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7850,
+  "fields": {
+    "store": 3,
+    "book": 19
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7852,
+  "fields": {
+    "store": 2,
+    "book": 62
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7853,
+  "fields": {
+    "store": 1,
+    "book": 20
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7854,
+  "fields": {
+    "store": 2,
+    "book": 17
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7855,
+  "fields": {
+    "store": 1,
+    "book": 5
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7856,
+  "fields": {
+    "store": 5,
+    "book": 48
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7857,
+  "fields": {
+    "store": 4,
+    "book": 6
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7858,
+  "fields": {
+    "store": 2,
+    "book": 59
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7859,
+  "fields": {
+    "store": 4,
+    "book": 7
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7860,
+  "fields": {
+    "store": 4,
+    "book": 35
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7861,
+  "fields": {
+    "store": 1,
+    "book": 44
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7864,
+  "fields": {
+    "store": 3,
+    "book": 57
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7865,
+  "fields": {
+    "store": 1,
+    "book": 31
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7866,
+  "fields": {
+    "store": 2,
+    "book": 13
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7868,
+  "fields": {
+    "store": 4,
+    "book": 8
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7869,
+  "fields": {
+    "store": 2,
+    "book": 6
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7870,
+  "fields": {
+    "store": 3,
+    "book": 59
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7871,
+  "fields": {
+    "store": 2,
+    "book": 43
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7872,
+  "fields": {
+    "store": 5,
+    "book": 35
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7873,
+  "fields": {
+    "store": 5,
+    "book": 45
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7876,
+  "fields": {
+    "store": 3,
+    "book": 54
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7878,
+  "fields": {
+    "store": 4,
+    "book": 15
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7879,
+  "fields": {
+    "store": 2,
+    "book": 45
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7880,
+  "fields": {
+    "store": 5,
+    "book": 7
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7882,
+  "fields": {
+    "store": 2,
+    "book": 9
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7884,
+  "fields": {
+    "store": 4,
+    "book": 14
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7885,
+  "fields": {
+    "store": 4,
+    "book": 62
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7886,
+  "fields": {
+    "store": 3,
+    "book": 61
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7888,
+  "fields": {
+    "store": 2,
+    "book": 31
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7889,
+  "fields": {
+    "store": 5,
+    "book": 1
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7890,
+  "fields": {
+    "store": 2,
+    "book": 53
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7892,
+  "fields": {
+    "store": 4,
+    "book": 51
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7893,
+  "fields": {
+    "store": 4,
+    "book": 24
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7895,
+  "fields": {
+    "store": 3,
+    "book": 58
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7897,
+  "fields": {
+    "store": 5,
+    "book": 11
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7898,
+  "fields": {
+    "store": 3,
+    "book": 31
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7899,
+  "fields": {
+    "store": 1,
+    "book": 10
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7901,
+  "fields": {
+    "store": 2,
+    "book": 58
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7903,
+  "fields": {
+    "store": 5,
+    "book": 61
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7905,
+  "fields": {
+    "store": 5,
+    "book": 15
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7910,
+  "fields": {
+    "store": 3,
+    "book": 27
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7911,
+  "fields": {
+    "store": 2,
+    "book": 19
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7913,
+  "fields": {
+    "store": 2,
+    "book": 11
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7914,
+  "fields": {
+    "store": 5,
+    "book": 27
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7915,
+  "fields": {
+    "store": 4,
+    "book": 34
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7916,
+  "fields": {
+    "store": 5,
+    "book": 47
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7918,
+  "fields": {
+    "store": 1,
+    "book": 12
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7919,
+  "fields": {
+    "store": 4,
+    "book": 33
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7922,
+  "fields": {
+    "store": 5,
+    "book": 16
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7926,
+  "fields": {
+    "store": 1,
+    "book": 58
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7929,
+  "fields": {
+    "store": 2,
+    "book": 26
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7932,
+  "fields": {
+    "store": 3,
+    "book": 34
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7933,
+  "fields": {
+    "store": 2,
+    "book": 50
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7934,
+  "fields": {
+    "store": 5,
+    "book": 36
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7935,
+  "fields": {
+    "store": 5,
+    "book": 18
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7938,
+  "fields": {
+    "store": 3,
+    "book": 22
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7940,
+  "fields": {
+    "store": 3,
+    "book": 50
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7941,
+  "fields": {
+    "store": 5,
+    "book": 56
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7942,
+  "fields": {
+    "store": 3,
+    "book": 15
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7946,
+  "fields": {
+    "store": 2,
+    "book": 48
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7949,
+  "fields": {
+    "store": 4,
+    "book": 3
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7952,
+  "fields": {
+    "store": 1,
+    "book": 11
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7954,
+  "fields": {
+    "store": 5,
+    "book": 51
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7960,
+  "fields": {
+    "store": 4,
+    "book": 55
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7961,
+  "fields": {
+    "store": 3,
+    "book": 37
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7964,
+  "fields": {
+    "store": 4,
+    "book": 22
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7965,
+  "fields": {
+    "store": 2,
+    "book": 1
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7966,
+  "fields": {
+    "store": 1,
+    "book": 46
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7968,
+  "fields": {
+    "store": 1,
+    "book": 8
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7975,
+  "fields": {
+    "store": 4,
+    "book": 31
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7976,
+  "fields": {
+    "store": 3,
+    "book": 32
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7979,
+  "fields": {
+    "store": 5,
+    "book": 40
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7982,
+  "fields": {
+    "store": 5,
+    "book": 41
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7984,
+  "fields": {
+    "store": 2,
+    "book": 3
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7985,
+  "fields": {
+    "store": 3,
+    "book": 5
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7987,
+  "fields": {
+    "store": 5,
+    "book": 2
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7990,
+  "fields": {
+    "store": 3,
+    "book": 46
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7995,
+  "fields": {
+    "store": 4,
+    "book": 49
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 7998,
+  "fields": {
+    "store": 2,
+    "book": 7
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 8000,
+  "fields": {
+    "store": 3,
+    "book": 16
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 8002,
+  "fields": {
+    "store": 5,
+    "book": 24
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 8004,
+  "fields": {
+    "store": 1,
+    "book": 42
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 8008,
+  "fields": {
+    "store": 1,
+    "book": 57
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 8010,
+  "fields": {
+    "store": 5,
+    "book": 33
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 8013,
+  "fields": {
+    "store": 3,
+    "book": 60
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 8015,
+  "fields": {
+    "store": 5,
+    "book": 6
+  }
+},
+{
+  "model": "hm12.store_books",
+  "pk": 8020,
+  "fields": {
+    "store": 2,
+    "book": 38
   }
 }
 ]

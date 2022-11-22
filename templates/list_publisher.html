@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <h1>Publishers</h1>
+<ul>
+{% for publisher in object_list %}
+    <li>{{ publisher.name }}</li>
+{% empty %}
+    <li>No Publishers.</li>
+{% endfor %}
+</ul>
 </body>
 </html>

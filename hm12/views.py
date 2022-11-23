@@ -80,7 +80,3 @@ class DetailPublisher(generic.DetailView):
     template_name = 'detail_publisher.html'
     model = Publisher
     context_object_name = 'publisher'
-
-
-
-

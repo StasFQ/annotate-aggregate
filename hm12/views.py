@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
 from django.views import generic
@@ -33,21 +34,10 @@ def author(request, pk):
                                            'author': author})
 
 
-def get_publisher(request):
-    publishers = Publisher.objects.prefetch_related('book_set').all()
-    return render(request, 'get_publisher.html', {'publishers': publishers})
-
-
-def publisher(request, pk):
-    publisher = get_object_or_404(Publisher, id=pk)
-    publishers = publisher.book_set.all()
-    return render(request, 'publisher.html', {'publisher': publisher, 'publishers': publishers})
-
 
 def get_store(request):
     store = Store.objects.prefetch_related('books').all()
     return render(request, 'get_store.html', {'store': store})
-
 
 def stores(request, pk):
     store = get_object_or_404(Store, pk=pk)
@@ -55,19 +45,21 @@ def stores(request, pk):
     return render(request, 'store.html', {'store': store, 'books': books})
 
 
-class CreatePublisher(generic.CreateView):
+
+
+class CreatePublisher(LoginRequiredMixin, generic.CreateView):
     template_name = 'publisher_form.html'
     model = Publisher
     fields = ['name']
 
 
-class UpdatePublisher(generic.UpdateView):
+class UpdatePublisher(LoginRequiredMixin, generic.UpdateView):
     template_name = 'update_publisher.html'
     model = Publisher
     fields = ['name']
 
 
-class DeletePublisher(generic.DeleteView):
+class DeletePublisher(LoginRequiredMixin, generic.DeleteView):
     template_name = 'delete_publisher.html'
     model = Publisher
     success_url = reverse_lazy('hm12:get_publisher')
@@ -87,3 +79,5 @@ class ListPublisher(generic.ListView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
         return context
+
+

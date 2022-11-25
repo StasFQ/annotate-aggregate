@@ -5,11 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-    {%  for s in store %}
+    <h1>Stores</h1>
+    {%  for s in all_books %}
         <a href="{% url 'hm12:store' s.id %}">{{ s.name }}</a>
         {% for b in s.books.all %}
             {{ b.name }},
         {% endfor %}
+        <h3>Всего книг в этом магазине: {{s.num_books}}</h3>
             <p></p>
     {% endfor %}
 

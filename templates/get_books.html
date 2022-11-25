@@ -5,6 +5,10 @@
     <title>Title</title>
 </head>
 <body>
+        <h1>Books</h1>
+        <h2>Средняя цена книги: {{ average_price }} гривен</h2>
+        <h3>Самая дорогая: {{ Max_price }} грн</h3>
+        <h3>Самая дешовая: {{ Min_price }} грн</h3>
 <form>
     {% for b in book %}
         <a href="{% url 'hm12:book' b.id %}">{{ b.name }}</a> {{ b.pages }}, {{ b.price }}, {{ b.rating }}, {{ b.pubdate }}

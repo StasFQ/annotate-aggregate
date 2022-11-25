@@ -5,6 +5,8 @@
     <title>Title</title>
 </head>
 <body>
+        <h1>Authors</h1>
+        <h2>Всего авторов: {{ all_authors }}</h2>
      {%  for auth in authors %}
         <a href="{% url 'hm12:author' auth.id %}">{{ auth.name }}</a>
          {% for a in auth.book_set.all %}

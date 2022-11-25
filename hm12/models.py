@@ -28,8 +28,8 @@ class Book(models.Model):
     def __str__(self):
         return self.name
 
-    def get_rating(self):
-        return "\n".join([p.authors for p in self.authors.all()])
+    def authora(self):
+        return "\n".join([p.name for p in self.authors.all()])
 
 
 class Store(models.Model):

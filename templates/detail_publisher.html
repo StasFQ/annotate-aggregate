@@ -6,5 +6,8 @@
 </head>
 <body>
     <h1>{{ publisher.name }}</h1>
+        {% for p in  publisher.book_set.all  %}
+            {{ p.name }}
+        {% endfor %}
 </body>
 </html>

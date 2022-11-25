@@ -14,7 +14,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         books = []
         P = Publisher.objects.all().values_list('id', flat=True)
-        for i in range(1, 21):
+        for i in range(1, 51):
             books.append(Book(name=f'Book_{i}', pages=random.randint(200, 400), price=random.randint(200, 350),
                               rating=random.randint(1, 10),
                               pubdate=radar.random_date(start='2000-05-24', stop='2013-05-24'),

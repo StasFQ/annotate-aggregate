@@ -1,4 +1,5 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.db.models import Avg, FloatField, IntegerField, Count, Max, Min
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
 from django.views import generic
@@ -12,7 +13,12 @@ def main_page(request):
 
 def get_books(request):
     book = Book.objects.prefetch_related('authors').all()
-    return render(request, 'get_books.html', {'book': book})
+    price = Book.objects.aggregate(Avg('price', output_field=IntegerField()), Max('price', output_field=IntegerField()),
+                                   Min('price', output_field=IntegerField()))
+    return render(request, 'get_books.html', {'book': book,
+                                              'average_price': price['price__avg'],
+                                              'Max_price': price['price__max'],
+                                              'Min_price': price['price__min']})
 
 
 def book(request, pk):
@@ -24,7 +30,9 @@ def book(request, pk):
 
 def get_author(request):
     authors = Author.objects.prefetch_related('book_set').all()
-    return render(request, 'get_author.html', {'authors': authors})
+    all_authors = Author.objects.aggregate(Count('id'))
+    return render(request, 'get_author.html', {'authors': authors,
+                                               'all_authors': all_authors['id__count']})
 
 
 def author(request, pk):
@@ -36,13 +44,15 @@ def author(request, pk):
 
 def get_store(request):
     store = Store.objects.prefetch_related('books').all()
-    return render(request, 'get_store.html', {'store': store})
+    all_books = Store.objects.annotate(num_books=Count('books'))
+    return render(request, 'get_store.html', {'all_books': all_books})
 
 
 def stores(request, pk):
     store = get_object_or_404(Store, pk=pk)
     books = store.books.all()
     return render(request, 'store.html', {'store': store, 'books': books})
+
 
 
 class ListPublisher(generic.ListView):

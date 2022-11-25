@@ -16,7 +16,7 @@ class PublisherAdmin(admin.ModelAdmin):
 
 
 class BookAdmin(admin.ModelAdmin):
-    list_display = [field.name for field in Book._meta.fields if field.name != "id"]
+    list_display = ['name', 'pages', 'price', 'rating', 'authora', 'publisher', 'pubdate']
     list_filter = ['pages', 'price']
     search_fields = ['name', 'rating']
     ordering = ['price']

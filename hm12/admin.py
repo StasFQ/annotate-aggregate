@@ -3,6 +3,11 @@ from django.contrib import admin
 from hm12.models import Author, Publisher, Store, Book
 
 
+class BookInline(admin.TabularInline):
+    model = Book
+    extra = 3
+
+
 class AuthorAdmin(admin.ModelAdmin):
     list_display = ['name', 'age']
     list_filter = ['age']
@@ -13,6 +18,7 @@ class AuthorAdmin(admin.ModelAdmin):
 class PublisherAdmin(admin.ModelAdmin):
     list_display = ['name']
     search_fields = ['name']
+    inlines = [BookInline]
 
 
 class BookAdmin(admin.ModelAdmin):

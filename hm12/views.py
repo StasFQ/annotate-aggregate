@@ -43,7 +43,6 @@ def author(request, pk):
 
 
 def get_store(request):
-    store = Store.objects.prefetch_related('books').all()
     all_books = Store.objects.annotate(num_books=Count('books'))
     return render(request, 'get_store.html', {'all_books': all_books})
 
@@ -52,7 +51,6 @@ def stores(request, pk):
     store = get_object_or_404(Store, pk=pk)
     books = store.books.all()
     return render(request, 'store.html', {'store': store, 'books': books})
-
 
 
 class ListPublisher(generic.ListView):

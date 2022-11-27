@@ -18,7 +18,7 @@ def get_books(request):
     book_authors = Book.objects.annotate(auth=Count('authors')).all()
     price = Book.objects.aggregate(Avg('price', output_field=IntegerField()), Max('price', output_field=IntegerField()),
                                    Min('price', output_field=IntegerField()))
-    paginator = Paginator(book_authors, 150)  # Show 25 contacts per page.
+    paginator = Paginator(book_authors, 150)  # Show 150 contacts per page.
 
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)

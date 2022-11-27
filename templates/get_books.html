@@ -6,17 +6,36 @@
 </head>
 <body>
         <h1>Books</h1>
+        <h2>Общее количество авторов: {{ book_authors.auth }}</h2>
         <h2>Средняя цена книги: {{ average_price }} гривен</h2>
         <h3>Самая дорогая: {{ Max_price }} грн</h3>
         <h3>Самая дешовая: {{ Min_price }} грн</h3>
 <form>
-    {% for b in book %}
+    {% for b in page_obj %}
         <a href="{% url 'hm12:book' b.id %}">{{ b.name }}</a> {{ b.pages }}, {{ b.price }}, {{ b.rating }}, {{ b.pubdate }}
         {% for a in b.authors.all %}
              {{ a.name }}
         {% endfor %}
         <p></p>
+        <h5>Количество авторов {{ b.auth }}</h5>
      {% endfor %}
 </form>
+    <div class="pagination">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
 </body>
 </html>

@@ -1,8 +1,10 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.core.paginator import Paginator
 from django.db.models import Avg, FloatField, IntegerField, Count, Max, Min
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
 from django.views import generic
+from django.views.decorators.cache import cache_page
 
 from .models import Book, Author, Publisher, Store
 
@@ -11,14 +13,22 @@ def main_page(request):
     return render(request, 'main_page.html')
 
 
+@cache_page(15)
 def get_books(request):
-    book = Book.objects.prefetch_related('authors').all()
+    book_authors = Book.objects.annotate(auth=Count('authors')).all()
     price = Book.objects.aggregate(Avg('price', output_field=IntegerField()), Max('price', output_field=IntegerField()),
                                    Min('price', output_field=IntegerField()))
-    return render(request, 'get_books.html', {'book': book,
+    paginator = Paginator(book_authors, 150)  # Show 25 contacts per page.
+
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    return render(request, 'get_books.html', {
                                               'average_price': price['price__avg'],
                                               'Max_price': price['price__max'],
-                                              'Min_price': price['price__min']})
+                                              'Min_price': price['price__min'],
+                                              'page_obj': page_obj,
+                                              'page_number': page_number,
+                                              'book_authors': book_authors})
 
 
 def book(request, pk):
@@ -42,6 +52,7 @@ def author(request, pk):
                                            'author': author})
 
 
+@cache_page(15)  # решил закешировать эту вью,так как из всех тут наибольшее количество запросов в базу.
 def get_store(request):
     all_books = Store.objects.annotate(num_books=Count('books'))
     return render(request, 'get_store.html', {'all_books': all_books})
